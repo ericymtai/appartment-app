@@ -312,10 +312,10 @@
             </objects>
             <point key="canvasLocation" x="1343" y="351"/>
         </scene>
-        <!--View Controller-->
+        <!--Reveal View Controller-->
         <scene sceneID="fhc-iA-ExT">
             <objects>
-                <viewController id="ayn-EC-ygA" sceneMemberID="viewController">
+                <viewController id="ayn-EC-ygA" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="udx-UJ-urL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -352,12 +352,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wbu-EX-Cv0">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="53" id="wbu-EX-Cv0">
+                                <rect key="frame" x="0.0" y="28" width="320" height="53"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wbu-EX-Cv0" id="eIp-wg-fcc">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_event" id="LoP-l6-NDy">
+                                            <rect key="frame" x="0.0" y="-11" width="240" height="65"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="86" id="bMZ-m6-VTU">
+                                <rect key="frame" x="0.0" y="81" width="320" height="86"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bMZ-m6-VTU" id="Y6P-n1-Iip">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="edit_event" id="UTc-aE-ZWw">
+                                            <rect key="frame" x="0.0" y="-11" width="240" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -369,7 +389,75 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g6d-B2-nDb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2324" y="832"/>
+            <point key="canvasLocation" x="2163" y="399"/>
+        </scene>
+        <!--Edit Event-->
+        <scene sceneID="jNa-jR-70n">
+            <objects>
+                <tableViewController id="fZR-bn-YdQ" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="479" sectionHeaderHeight="28" sectionFooterHeight="28" id="Qtj-gw-dcR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="c64-FN-GZf">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="513" id="JpH-a7-p0c">
+                                        <rect key="frame" x="0.0" y="64" width="320" height="513"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JpH-a7-p0c" id="1aN-Le-arU">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="512"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="incase" id="7fj-it-Rrh">
+                                                    <rect key="frame" x="0.0" y="-5" width="320" height="509"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Xhz-iq-xqa">
+                                                    <rect key="frame" x="232" y="402" width="127" height="73"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button" image="cancel_btn"/>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="fZR-bn-YdQ" id="GAh-eh-QVt"/>
+                            <outlet property="delegate" destination="fZR-bn-YdQ" id="EUc-ky-9Vr"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Edit Event" id="dke-B9-wNy">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="hoM-pk-gp8">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CDN-jg-pr5">
+                                <rect key="frame" x="278" y="10" width="26" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="hamburger"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gh2-d8-gfF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2903" y="399"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1A3-cD-pr7">
+            <objects>
+                <navigationController id="0zR-VV-pVI" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cA3-br-nMz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fZR-bn-YdQ" kind="relationship" relationship="rootViewController" id="SaD-5k-adE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KYb-ab-d6W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2519" y="399"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lbi-vl-e7s">
@@ -506,15 +594,20 @@
         </scene>
     </scenes>
     <resources>
+        <image name="add_event" width="212" height="45"/>
         <image name="appartment_app" width="67" height="67"/>
         <image name="building_code" width="375" height="124"/>
+        <image name="cancel_btn" width="73" height="73"/>
         <image name="done_btn" width="73" height="73"/>
+        <image name="edit_event" width="212" height="45"/>
         <image name="events_bar" width="375" height="36"/>
         <image name="firedrill" width="375" height="80"/>
         <image name="free_xmas_bar" width="375" height="36"/>
         <image name="go_right_btn" width="73" height="73"/>
+        <image name="hamburger" width="26" height="24"/>
         <image name="home_bar" width="375" height="36"/>
         <image name="home_page" width="375" height="565"/>
+        <image name="incase" width="375" height="566"/>
         <image name="meeting" width="375" height="80"/>
         <image name="movie" width="375" height="80"/>
         <image name="residents_code" width="375" height="123"/>
