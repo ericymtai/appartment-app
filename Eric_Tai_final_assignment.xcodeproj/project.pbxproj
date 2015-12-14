@@ -14,7 +14,6 @@
 		528D6F481C1741B0000070EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528D6F461C1741B0000070EB /* LaunchScreen.storyboard */; };
 		528D6F531C1741B0000070EB /* Eric_Tai_final_assignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D6F521C1741B0000070EB /* Eric_Tai_final_assignmentTests.swift */; };
 		528D6F5E1C1741B0000070EB /* Eric_Tai_final_assignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D6F5D1C1741B0000070EB /* Eric_Tai_final_assignmentUITests.swift */; };
-		52930AB01C1D0E0E007B15DE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52930AAF1C1D0E0E007B15DE /* SWRevealViewController.m */; };
 		52FD26561C19F2F100C621E0 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD26551C19F2F100C621E0 /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,9 +48,6 @@
 		528D6F591C1741B0000070EB /* Eric_Tai_final_assignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Eric_Tai_final_assignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528D6F5D1C1741B0000070EB /* Eric_Tai_final_assignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eric_Tai_final_assignmentUITests.swift; sourceTree = "<group>"; };
 		528D6F5F1C1741B0000070EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52930AAD1C1D0E0E007B15DE /* sideMenu-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sideMenu-Bridging-Header.h"; sourceTree = "<group>"; };
-		52930AAE1C1D0E0E007B15DE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		52930AAF1C1D0E0E007B15DE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		52FD26551C19F2F100C621E0 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +99,6 @@
 		528D6F3C1C1741B0000070EB /* Eric_Tai_final_assignment */ = {
 			isa = PBXGroup;
 			children = (
-				52930AAB1C1D0DC9007B15DE /* SWReveal */,
 				528D6F3D1C1741B0000070EB /* AppDelegate.swift */,
 				528D6F3F1C1741B0000070EB /* ViewController.swift */,
 				528D6F411C1741B0000070EB /* Main.storyboard */,
@@ -131,16 +126,6 @@
 				528D6F5F1C1741B0000070EB /* Info.plist */,
 			);
 			path = Eric_Tai_final_assignmentUITests;
-			sourceTree = "<group>";
-		};
-		52930AAB1C1D0DC9007B15DE /* SWReveal */ = {
-			isa = PBXGroup;
-			children = (
-				52930AAD1C1D0E0E007B15DE /* sideMenu-Bridging-Header.h */,
-				52930AAE1C1D0E0E007B15DE /* SWRevealViewController.h */,
-				52930AAF1C1D0E0E007B15DE /* SWRevealViewController.m */,
-			);
-			name = SWReveal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +262,6 @@
 				52FD26561C19F2F100C621E0 /* HomeTableViewController.swift in Sources */,
 				528D6F401C1741B0000070EB /* ViewController.swift in Sources */,
 				528D6F3E1C1741B0000070EB /* AppDelegate.swift in Sources */,
-				52930AB01C1D0E0E007B15DE /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
